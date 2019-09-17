@@ -1,0 +1,45 @@
+body {
+    color: maroon;
+    font-family: Georgia; /*credit to: w3schools.com*/
+    background-color: #0a148c
+}
+
+.topnav {
+    background-color: #646464;
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #ff0000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #780000;
+    color: #373737;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #373737;
+    color: #780000;
+}
+/* credit to: w3schools.com */
+
+a:link {
+    color: #ff0000;
+}
+
+a:hover {
+    color: white;
+}
+
+#tables a:visited {
+    color: #780000;
+}
